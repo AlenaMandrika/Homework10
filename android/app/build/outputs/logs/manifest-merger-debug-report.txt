@@ -1,6 +1,26 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from [:react-native-fs] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/753ef6a36a797b2eb5f5e652672fc0f2/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/8c2ea2d11ecf57cd3d3385ca176030e1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/edc79ad3d4e542cf884d05cd733cb96c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/a9fafd300044ec34244649cbf33f945c/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6085b51d4d610f5170393d0875d3996e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/8b57101aba624ef5ffd0237196e770f3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/85d3034198765f4481b615af3b0d717e/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/dc03c5cff763a3a9aa290a15f8e03d3b/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/01004c6d3026746c0544aa35718b57a4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/18c582ace810cae9c769126b84f4f801/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/7b4fc82663d722c1297a2335781c019b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/5130da0a769e7ca01b814084443a6233/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12
 	package
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:2:5-30
 		INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml
@@ -9,36 +29,54 @@ ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidMa
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:4:5-30
 		INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:11-69
 	android:versionCode
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:3:5-28
 		INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/753ef6a36a797b2eb5f5e652672fc0f2/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/753ef6a36a797b2eb5f5e652672fc0f2/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [newhomework:react-native-fs:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-fs/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:9:5-11:41
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [:react-native-fs] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/753ef6a36a797b2eb5f5e652672fc0f2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/753ef6a36a797b2eb5f5e652672fc0f2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/8c2ea2d11ecf57cd3d3385ca176030e1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/8c2ea2d11ecf57cd3d3385ca176030e1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/edc79ad3d4e542cf884d05cd733cb96c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/edc79ad3d4e542cf884d05cd733cb96c/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/a9fafd300044ec34244649cbf33f945c/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/a9fafd300044ec34244649cbf33f945c/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6085b51d4d610f5170393d0875d3996e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6085b51d4d610f5170393d0875d3996e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/8b57101aba624ef5ffd0237196e770f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/8b57101aba624ef5ffd0237196e770f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/85d3034198765f4481b615af3b0d717e/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/85d3034198765f4481b615af3b0d717e/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/01004c6d3026746c0544aa35718b57a4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/01004c6d3026746c0544aa35718b57a4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/18c582ace810cae9c769126b84f4f801/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/18c582ace810cae9c769126b84f4f801/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/7b4fc82663d722c1297a2335781c019b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/7b4fc82663d722c1297a2335781c019b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/5130da0a769e7ca01b814084443a6233/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/5130da0a769e7ca01b814084443a6233/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:9:5-11:41
+INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:9:5-11:41
 	android:targetSdkVersion
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:11:9-38
 		INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml
@@ -49,18 +87,24 @@ MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/alenamandrika/Sites/ne
 		INJECTED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:13:5-30:19
-MERGED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/753ef6a36a797b2eb5f5e652672fc0f2/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.50.3] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/react-native-0.50.3.aar/753ef6a36a797b2eb5f5e652672fc0f2/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/8c2ea2d11ecf57cd3d3385ca176030e1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/8c2ea2d11ecf57cd3d3385ca176030e1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/edc79ad3d4e542cf884d05cd733cb96c/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/edc79ad3d4e542cf884d05cd733cb96c/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/85d3034198765f4481b615af3b0d717e/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/85d3034198765f4481b615af3b0d717e/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/dc03c5cff763a3a9aa290a15f8e03d3b/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/alenamandrika/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/dc03c5cff763a3a9aa290a15f8e03d3b/AndroidManifest.xml:2:3-17
 	android:label
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:16:7-39
-	android:allowBackup
-		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:15:7-33
 	android:icon
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:17:7-41
+	android:allowBackup
+		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:15:7-33
 	android:theme
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:18:7-38
 	android:name
@@ -90,26 +134,26 @@ ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidMa
 	android:name
 		ADDED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:29:17-81
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [newhomework:react-native-fs:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-fs/unspecified/AndroidManifest.xml:11:5-81
+ADDED from [:react-native-fs] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from [newhomework:react-native-fs:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-fs/unspecified/AndroidManifest.xml:11:22-78
+		ADDED from [:react-native-fs] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:22-78
 provider#android.support.v4.content.FileProvider
-ADDED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:12:9-20:20
-	android:authorities
-		ADDED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:14:13-60
+ADDED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-60
 	android:exported
-		ADDED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:13:13-67
+		ADDED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:17:13-19:58
+ADDED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-19:58
 	android:resource
-		ADDED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:19:17-55
+		ADDED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:17-55
 	android:name
-		ADDED from [newhomework:react-native-image-picker:unspecified] /Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/exploded-aar/newhomework/react-native-image-picker/unspecified/AndroidManifest.xml:18:17-67
-android:uses-permission#android.permission.READ_PHONE_STATE
+		ADDED from [:react-native-image-picker] /Users/alenamandrika/Sites/newhomework/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:17-67
+uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/alenamandrika/Sites/newhomework/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
