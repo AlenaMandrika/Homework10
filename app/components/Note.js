@@ -4,40 +4,61 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
-  Image
+  Image,
+  TextInput
 } from 'react-native'
 
 export default class Note extends Component {
+  constructor (props) {
+    super(props)
+    console.log('!!!!', props)
+  }
 
   render () {
     return (
       <View key={this.props.keyVal} style={styles.note}>
+        <View style={styles.btnContainer}>
+          <TouchableOpacity
+            style={styles.buttonAddImg}
+            onPress={() => {this.props.selectImage(this.props.val)}}
+            underlayColor='#dddddd'
+            underlineColorAndroid='transparent'>
+            <Text style={styles.btnText}>Upload Image</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.buttonAddDate}
+            onPress={()=>{this.props.addDate(this.props.val)}}
+            underlayColor='#dddddd'
+            underlineColorAndroid='transparent'>
+            <Text style={styles.btnText}>Upload Date</Text>
+          </TouchableOpacity>
+        </View>
+        <TouchableOpacity onPress={() => {this.props.saveMethod(this.props.val)}} style={styles.noteSave}>
+          <Text style={styles.noteDeleteText}>S</Text>
+        </TouchableOpacity>
 
-        <Text style={styles.noteText}>{this.props.val.date}</Text>
-        <Text style={styles.noteText}>{this.props.val.note}</Text>
+        <TextInput style={styles.noteText}
+                   //changeText={() => {this.props.changeText(this.props.val.note)}}
+                   changeText={(text) => this.props.val.note = text}>
+          <Text>{this.props.val.note}</Text>
+        </TextInput>
 
         <TouchableOpacity onPress={this.props.deleteMethod} style={styles.noteDelete}>
           <Text style={styles.noteDeleteText}>X</Text>
         </TouchableOpacity>
 
-        <View style={styles.btnContainer}>
-          <TouchableOpacity
-            style={styles.photoButton}
-            onPress={this.props.selectImageMethod}>
-            <Text style={styles.photoButtonText}>
-              Upload image
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.dateButton}
-            onPress={this.props.addDateMethod}>
-            <Text style={styles.dateButtonText}>
-              Upload date
-            </Text>
-          </TouchableOpacity>
+        <View style={styles.btnPhotoContainer}>
+          {this.props.val.url ? <Image
+            style={styles.image}
+            source={{uri: this.props.val.url}}
+          /> : null
+          }
+
           <View>
-            <Image source={this.props.avatar} style={styles.uploadAvatar} />
+            {this.props.val.date === null ? <Text style={styles.addDateText}>Date...</Text> :
+              <Text style={styles.addDateText}>{this.props.val.date}</Text>}
           </View>
+
         </View>
       </View>
     )
@@ -53,9 +74,9 @@ let styles = StyleSheet.create({
     borderBottomColor: '#ededed'
   },
   noteText: {
-    paddingLeft: 30,
-    borderLeftWidth: 5,
+    paddingLeft: 53,
     borderLeftColor: 'red',
+    fontSize: 25
   },
   noteDelete: {
     position: 'absolute',
@@ -71,40 +92,67 @@ let styles = StyleSheet.create({
   noteDeleteText: {
     color: 'white'
   },
-  photoButton: {
-    marginLeft: 10,
-    marginRight: 80,
-    padding: 20,
-    backgroundColor: 'grey',
-    justifyContent: 'center'
+  noteSave: {
+    position: 'absolute',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 50,
+    backgroundColor: 'red',
+    padding: 10,
+    top: 10,
+    bottom: 10,
+    left: 10,
   },
-  photoButtonText: {
-    color: 'blue',
-    textAlign: 'center'
-  },
-  dateButton: {
-    marginLeft: 10,
-    marginRight: 80,
-    padding: 20,
-    backgroundColor: 'grey',
-    justifyContent: 'center'
-  },
-  dateButtonText: {
-    color: 'blue',
-    textAlign: 'center'
-  },
-  btnContainer:{
+  btnContainer: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    marginLeft: 20,
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    paddingLeft: 15,
+    left: 35,
+    top: 10
+  },
+  btnPhotoContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    paddingLeft: 15,
+    left: 35,
     top: 10
   },
   uploadAvatar: {
     width: 50,
-    height: 50,
+    height: 40,
     backgroundColor: 'white'
   },
-
-});
+  image: {
+    width: 50,
+    height: 40,
+    backgroundColor: 'white'
+  },
+  addDateText: {
+    padding: 5,
+    color: 'black',
+  },
+  buttonAddImg: {
+    marginTop: 5,
+    marginLeft: 2,
+    marginRight: 2,
+    height: 20,
+    flex: 2,
+    flexDirection: 'row',
+    backgroundColor: '#48afdb',
+    justifyContent: 'center',
+    borderRadius: 10,
+  },
+  buttonAddDate: {
+    marginTop: 5,
+    height: 20,
+    flex: 2,
+    flexDirection: 'row',
+    backgroundColor: '#48afdb',
+    justifyContent: 'center',
+    borderRadius: 10,
+  },
+})
