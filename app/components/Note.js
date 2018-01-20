@@ -33,13 +33,9 @@ export default class Note extends Component {
             <Text style={styles.btnText}>Upload Date</Text>
           </TouchableOpacity>
         </View>
-        <TouchableOpacity onPress={() => {this.props.saveMethod(this.props.val)}} style={styles.noteSave}>
-          <Text style={styles.noteDeleteText}>S</Text>
-        </TouchableOpacity>
 
         <TextInput style={styles.noteText}
-                   //changeText={() => {this.props.changeText(this.props.val.note)}}
-                   changeText={(text) => this.props.val.note = text}>
+                   onChangeText={this.props.onChangeText}>
           <Text>{this.props.val.note}</Text>
         </TextInput>
 
@@ -71,11 +67,12 @@ let styles = StyleSheet.create({
     padding: 10,
     paddingRight: 100,
     borderBottomWidth: 2,
-    borderBottomColor: '#ededed'
+    borderBottomColor: '#ededed',
+    borderLeftWidth: 10,
+    borderLeftColor: '#2980b9',
   },
   noteText: {
-    paddingLeft: 53,
-    borderLeftColor: 'red',
+    paddingLeft: 33,
     fontSize: 25
   },
   noteDelete: {
@@ -92,33 +89,22 @@ let styles = StyleSheet.create({
   noteDeleteText: {
     color: 'white'
   },
-  noteSave: {
-    position: 'absolute',
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderRadius: 50,
-    backgroundColor: 'red',
-    padding: 10,
-    top: 10,
-    bottom: 10,
-    left: 10,
-  },
   btnContainer: {
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'flex-start',
     paddingLeft: 15,
-    left: 35,
+    left: 15,
     top: 10
   },
   btnPhotoContainer: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
     alignItems: 'flex-start',
     paddingLeft: 15,
-    left: 35,
+    left: 15,
     top: 10
   },
   uploadAvatar: {

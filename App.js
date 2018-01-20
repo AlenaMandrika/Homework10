@@ -32,7 +32,7 @@ export default class App extends React.Component {
     this.selectImage = this.selectImage.bind(this)
     this.storageFunc = this.storageFunc.bind(this)
     this.addDate = this.addDate.bind(this)
-    this.saveChangedItem = this.saveChangedItem.bind(this)
+    this.updateText = this.updateText.bind(this)
 
   }
 
@@ -166,34 +166,33 @@ export default class App extends React.Component {
   }
 
   changeText (noteText) {
+    console.log('hjdbjhbdjhv', noteText)
     this.setState({
-      noteText: noteText
+        noteText: noteText
     })
-    this.storageFunc(this.state.noteArray)
+    // this.storageFunc(this.state.noteArray)
   }
 
-  saveChangedItem (note) {
-
-    let notes = this.state.noteArray
-
-    this.setState({noteArray: notes})
-
-    this.storageFunc(notes)
+  updateText (newText, index) {
+    this.state.noteArray[index].note = newText
+    this.setState({
+      noteArray: this.state.noteArray.concat([])
+    }, () => {
+      this.storageFunc(this.state.noteArray)
+    })
   }
 
   render () {
-    let notes = this.state.noteArray.map((note, key) => {
-      console.log(123, note)
-      return <Note storageFunc={this.storageFunc}
-                   key={key}
-                   keyVal={key}
-                   val={note}
-                   selectImage={this.selectImage}
-                   addDate={this.addDate}
-                   deleteMethod={() => this.deleteNote(key)}
-                   saveMethod={this.saveChangedItem}
-                   changeText={this.changeText}
-
+    let notes = this.state.noteArray.map((note, index) => {
+      return <Note
+        storageFunc={this.storageFunc}
+        key={index}
+        keyVal={index}
+        val={note}
+        selectImage={this.selectImage}
+        addDate={this.addDate}
+        deleteMethod={() => this.deleteNote(index)}
+        onChangeText={(newText) => this.updateText(newText, index)}
       />
     })
     return (
