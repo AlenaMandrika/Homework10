@@ -1,20 +1,13 @@
-Homework 10.
+ # Homework17
 
-It's a simple React Native app - TODO list. There are such options in the app:
-
-Ability to add/remove/edit todo-element
-Every element has date, description and picture
-Data is stored on device
-
+ReactNative \ Express - login\register via email AND facebook, share invite link for adding user to friends. Chat system across friends with storing data on server (real-time).
 
 Prerequisites:
-
 Android Studio
 
-
-Installation:
-clone https://github.com/AlenaMandrika/Homework10.git
-
-npm i
-
-in emulator: react-native run-android
+## Instructions
+1. Clone the repo: 
+2. Install packages: `npm install` and `npm start` in folder react-native
+3. Install packages: `npm install` in folder backend
+4. Launch: `node backend/server/app.js`
+5. Visit in your browser at: `http://localhost:3005`
