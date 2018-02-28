@@ -21,7 +21,8 @@ export default class home extends Component{
 }
 const styles = StyleSheet.create({
   container:{
-    display:'flex',alignItems:'center',
+    display:'flex',
+    alignItems:'center',
     justifyContent:'center'
   },
   pageName:{

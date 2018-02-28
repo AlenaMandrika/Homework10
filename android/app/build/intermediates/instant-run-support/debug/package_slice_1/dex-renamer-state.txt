@@ -1,4 +1,4 @@
-#Sat Jan 13 13:54:00 EET 2018
-base.0=/Users/alenamandrika/Sites/newhomework/android/app/build/intermediates/transforms/dexMerger/debug/1
+#Sat Feb 24 19:09:13 EET 2018
+base.0=/Users/alenamandrika/Sites/homework17/views/react-native/android/app/build/intermediates/transforms/dexMerger/debug/1
 path.0=classes.dex
 renamed.0=classes.dex

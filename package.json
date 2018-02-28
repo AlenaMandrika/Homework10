@@ -5,7 +5,8 @@
   "devDependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1",
     "jest-expo": "23.0.0",
-    "react-test-renderer": "16.0.0"
+    "react-test-renderer": "16.0.0",
+    "babel-jest": "21.2.0"
   },
   "scripts": {
     "start": "react-native start",
@@ -21,6 +22,9 @@
     "react": "16.0.0",
     "react-native": "0.50.3",
     "react-native-fs": "^2.9.6",
-    "react-native-image-picker": "^0.26.7"
+    "react-native-image-picker": "^0.26.7",
+    "react-navigation": "^1.2.0",
+    "axios": "^0.17.1",
+    "react-native-vector-icons": "^4.4.2"
   }
 }

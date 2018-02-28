@@ -15,7 +15,7 @@ export default class home extends Component{
     const {navigate} = this.props.navigation;
     return(
       <View style={styles.container}>
-        <Text style={styles.pageName}>User Manager</Text>
+        <Text style={styles.pageName}>User</Text>
         <TouchableOpacity
           onPress={() => navigate('Login')}
           style={styles.btn1}>
@@ -27,6 +27,14 @@ export default class home extends Component{
           style={styles.btn2}>
           <Text style={styles.btnText}>Register</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={()=> navigate('Facebook')}
+          style={styles.btn3}>
+          <Text style={styles.btnText}>Facebook</Text>
+        </TouchableOpacity>
+
+
       </View>
     );
   }
@@ -39,13 +47,19 @@ const styles = StyleSheet.create({
   },
   btn1:{
     backgroundColor:'orange',
-    padding:10,
+    padding:20,
     margin:10,
     width:'95%'
   },
   btn2:{
     backgroundColor:'blue',
-    padding:10,
+    padding:20,
+    margin:10,
+    width:'95%'
+  },
+  btn3:{
+    backgroundColor:'blue',
+    padding:20,
     margin:10,
     width:'95%'
   },
@@ -53,7 +67,8 @@ const styles = StyleSheet.create({
     margin:10,
     fontWeight:'bold',
     color:'#000',
-    textAlign:'center'
+    textAlign:'center',
+    fontSize: 30
   },
   btnText:{
     color:'#fff',

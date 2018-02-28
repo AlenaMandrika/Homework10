@@ -29,35 +29,30 @@ export default class register extends Component {
   }
 
   userRegister = () =>{
-    //alert('ok'); // version 0.48
     const {userName} = this.state;
     const {userEmail} = this.state;
     const {userPassword} = this.state;
 
-    fetch('https://hardeepwork.000webhostapp.com/react/register.php', {
-      method: 'post',
-      header:{
-        'Accept': 'application/json',
-        'Content-type': 'application/json'
-      },
-      body:JSON.stringify({
-        name: userName,
-        email: userEmail,
-        password: userPassword,
-      })
-    })
-      .then((response) => response.json())
-      .then((responseJson) =>{
-        alert(responseJson);
-      })
-      .catch((error)=>{
-        console.error(error);
-      });
+    let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ ;
+    if(userEmail === "") {
+      //alert("Please enter Email address");
+      this.setState({email:'Please enter Email address'})
+
+    } else if(reg.test(userEmail) === false) {
+      //alert("Email is Not Correct");
+      this.setState({email:'Email is Not Correct'})
+      return false;
+    } else if(userPassword === "") {
+      this.setState({email:'Please enter password'})
+    }
+
+    //server
   }
 
   render() {
     return (
       <View style={styles.container}>
+        <Text style={{padding:10,margin:10,color:'red'}}>{this.state.email}</Text>
 
         <TextInput
           placeholder="Enter Name"
